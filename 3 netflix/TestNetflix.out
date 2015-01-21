@@ -1,0 +1,33 @@
+.../v/filer4b/v35q001/parthu04/cs313e/cs313e-netflix/Netflix.py:63: ResourceWarning: unclosed file <_io.TextIOWrapper name='/u/prat0318/netflix-tests/aip256-cacheAvgAndModeRatingPerMovie.txt' mode='r' encoding='UTF-8'>
+  inFile = open("/u/prat0318/netflix-tests/aip256-cacheAvgAndModeRatingPerCust.txt", "r")
+/v/filer4b/v35q001/parthu04/cs313e/cs313e-netflix/Netflix.py:68: ResourceWarning: unclosed file <_io.TextIOWrapper name='/u/prat0318/netflix-tests/aip256-cacheAvgAndModeRatingPerCust.txt' mode='r' encoding='UTF-8'>
+  inFile = open("/u/prat0318/netflix-tests/erb988+np6593-ProbeAnswersDictionary.txt", "r")
+TestNetflix.py:54: ResourceWarning: unclosed file <_io.TextIOWrapper name='/u/prat0318/netflix-tests/erb988+np6593-ProbeAnswersDictionary.txt' mode='r' encoding='UTF-8'>
+  netflix_solve(r, w)
+.TestNetflix.py:61: ResourceWarning: unclosed file <_io.TextIOWrapper name='/u/prat0318/netflix-tests/erb988+np6593-ProbeAnswersDictionary.txt' mode='r' encoding='UTF-8'>
+  netflix_solve(r, w)
+.TestNetflix.py:68: ResourceWarning: unclosed file <_io.TextIOWrapper name='/u/prat0318/netflix-tests/erb988+np6593-ProbeAnswersDictionary.txt' mode='r' encoding='UTF-8'>
+  netflix_solve(r, w)
+.
+----------------------------------------------------------------------
+Ran 6 tests in 44.721s
+
+OK
+15826:
+3.9
+4.2
+4.0
+3.7
+15830:
+3.5
+3.8
+3.7
+3.6
+15832:
+3.2
+3.8
+3.1
+3.6
+Name          Stmts   Miss Branch BrMiss  Cover   Missing
+---------------------------------------------------------
+TestNetflix      38      0      0      0   100%   

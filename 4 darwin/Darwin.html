@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head><title>Python: module Darwin</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head><body bgcolor="#f0f0f8">
+
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="heading">
+<tr bgcolor="#7799ee">
+<td valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial">&nbsp;<br><big><big><strong>Darwin</strong></big></big></font></td
+><td align=right valign=bottom
+><font color="#ffffff" face="helvetica, arial"><a href=".">index</a><br><a href="file:/v/filer4b/v35q001/parthu04/cs313e/cs313e-darwin/Darwin.py">/v/filer4b/v35q001/parthu04/cs313e/cs313e-darwin/Darwin.py</a></font></td></tr></table>
+    <p><tt>#&nbsp;---------------------------<br>
+#&nbsp;project&nbsp;repos/cs313e-darwin/<a href="#Darwin">Darwin</a>.py<br>
+#&nbsp;CS313E&nbsp;-&nbsp;Elements&nbsp;of&nbsp;Software&nbsp;Design<br>
+#&nbsp;Parth&nbsp;H.&nbsp;Patel<br>
+#&nbsp;php274<br>
+#&nbsp;Jeremy&nbsp;Phan<br>
+#&nbsp;jp43992<br>
+#&nbsp;---------------------------</tt></p>
+<p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#aa55cc">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Modules</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#aa55cc"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><table width="100%" summary="list"><tr><td width="25%" valign=top><a href="random.html">random</a><br>
+</td><td width="25%" valign=top></td><td width="25%" valign=top></td><td width="25%" valign=top></td></tr></table></td></tr></table><p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ee77aa">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#ffffff" face="helvetica, arial"><big><strong>Classes</strong></big></font></td></tr>
+    
+<tr><td bgcolor="#ee77aa"><tt>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</tt></td><td>&nbsp;</td>
+<td width="100%"><dl>
+<dt><font face="helvetica, arial"><a href="builtins.html#object">builtins.object</a>
+</font></dt><dd>
+<dl>
+<dt><font face="helvetica, arial"><a href="Darwin.html#Creature">Creature</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Darwin.html#Darwin">Darwin</a>
+</font></dt><dt><font face="helvetica, arial"><a href="Darwin.html#Species">Species</a>
+</font></dt></dl>
+</dd>
+</dl>
+ <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Creature">class <strong>Creature</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Creature">Creature</a>&nbsp;class&nbsp;takes&nbsp;an&nbsp;instance&nbsp;of&nbsp;<a href="#Species">Species</a>&nbsp;class&nbsp;and&nbsp;contains<br>
+the&nbsp;set&nbsp;of&nbsp;instructions&nbsp;for&nbsp;an&nbsp;individual&nbsp;of&nbsp;that&nbsp;<a href="#Species">Species</a>.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Creature-__init__"><strong>__init__</strong></a>(self, species, direction)</dt></dl>
+
+<dl><dt><a name="Creature-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Darwin">class <strong>Darwin</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt><a href="#Darwin">Darwin</a>'s&nbsp;World&nbsp;is&nbsp;maintained&nbsp;and&nbsp;manipulated&nbsp;here<br>
+All&nbsp;instructions&nbsp;are&nbsp;taken&nbsp;in&nbsp;through&nbsp;<a href="#Creature">Creature</a>&nbsp;and&nbsp;from&nbsp;<a href="#Creature">Creature</a>,&nbsp;<a href="#Species">Species</a><br>
+and&nbsp;then&nbsp;used&nbsp;to&nbsp;do&nbsp;the&nbsp;action&nbsp;or&nbsp;control&nbsp;itself.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Darwin-__init__"><strong>__init__</strong></a>(self, vertical, horizontal)</dt></dl>
+
+<dl><dt><a name="Darwin-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Darwin-addCreature"><strong>addCreature</strong></a>(self, y, x, creature)</dt><dd><tt>this&nbsp;method&nbsp;adds&nbsp;a&nbsp;particular&nbsp;creature&nbsp;initialized&nbsp;through<br>
+the&nbsp;<a href="#Creature">Creature</a>&nbsp;class&nbsp;onto&nbsp;a&nbsp;particular&nbsp;coordinate&nbsp;of&nbsp;<a href="#Darwin">Darwin</a>'s&nbsp;World</tt></dd></dl>
+
+<dl><dt><a name="Darwin-darwin_solve"><strong>darwin_solve</strong></a>(self)</dt><dd><tt>the&nbsp;solve&nbsp;function&nbsp;performs&nbsp;all&nbsp;actions&nbsp;required&nbsp;to&nbsp;manipulate&nbsp;within&nbsp;Darwins&nbsp;World</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table> <p>
+<table width="100%" cellspacing=0 cellpadding=2 border=0 summary="section">
+<tr bgcolor="#ffc8d8">
+<td colspan=3 valign=bottom>&nbsp;<br>
+<font color="#000000" face="helvetica, arial"><a name="Species">class <strong>Species</strong></a>(<a href="builtins.html#object">builtins.object</a>)</font></td></tr>
+    
+<tr bgcolor="#ffc8d8"><td rowspan=2><tt>&nbsp;&nbsp;&nbsp;</tt></td>
+<td colspan=2><tt>The&nbsp;<a href="#Species">Species</a>&nbsp;class&nbsp;simply&nbsp;outlines&nbsp;the&nbsp;different&nbsp;actions&nbsp;and<br>
+control&nbsp;actions&nbsp;that&nbsp;Creatures&nbsp;within&nbsp;<a href="#Darwin">Darwin</a>'s&nbsp;World&nbsp;can<br>
+perform.<br>&nbsp;</tt></td></tr>
+<tr><td>&nbsp;</td>
+<td width="100%">Methods defined here:<br>
+<dl><dt><a name="Species-__init__"><strong>__init__</strong></a>(self, name)</dt></dl>
+
+<dl><dt><a name="Species-__str__"><strong>__str__</strong></a>(self)</dt></dl>
+
+<dl><dt><a name="Species-addInstruction"><strong>addInstruction</strong></a>(self, instruction)</dt><dd><tt>Adds&nbsp;particular&nbsp;instructions&nbsp;from&nbsp;the&nbsp;other&nbsp;methods&nbsp;in&nbsp;Class&nbsp;species<br>
+to&nbsp;the&nbsp;list&nbsp;of&nbsp;steps&nbsp;to&nbsp;perform&nbsp;identified&nbsp;as&nbsp;the&nbsp;instructions&nbsp;list.</tt></dd></dl>
+
+<dl><dt><a name="Species-left"><strong>left</strong></a>(self, direction)</dt><dd><tt>instruction&nbsp;that&nbsp;turns&nbsp;the&nbsp;creature&nbsp;to&nbsp;face&nbsp;one&nbsp;unit&nbsp;to&nbsp;the&nbsp;left.</tt></dd></dl>
+
+<dl><dt><a name="Species-right"><strong>right</strong></a>(self, direction)</dt><dd><tt>instruction&nbsp;that&nbsp;turns&nbsp;the&nbsp;creature&nbsp;to&nbsp;face&nbsp;one&nbsp;unit&nbsp;to&nbsp;the&nbsp;right.</tt></dd></dl>
+
+<hr>
+Data descriptors defined here:<br>
+<dl><dt><strong>__dict__</strong></dt>
+<dd><tt>dictionary&nbsp;for&nbsp;instance&nbsp;variables&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+<dl><dt><strong>__weakref__</strong></dt>
+<dd><tt>list&nbsp;of&nbsp;weak&nbsp;references&nbsp;to&nbsp;the&nbsp;object&nbsp;(if&nbsp;defined)</tt></dd>
+</dl>
+</td></tr></table></td></tr></table>
+</body></html>
